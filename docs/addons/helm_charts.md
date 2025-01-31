@@ -427,7 +427,8 @@ spec:
 ```
 
 !!! note
-The `insecureSkipTLSVerify` option should only be used if your private registry does not support TLS verification. It's generally recommended to use a secure TLS connection and set the `CASecretRef` field in the `registryCredentialsConfig`
+    The `insecureSkipTLSVerify` option should only be used if your private registry does not support TLS verification. It's generally recommended to use a secure TLS connection and set the `CASecretRef` field in the `registryCredentialsConfig`
+
 
 ### Upgrade CRDs
 
