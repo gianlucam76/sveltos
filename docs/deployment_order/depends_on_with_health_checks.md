@@ -137,7 +137,7 @@ The check above prevents Sveltos from marking the Helm feature as healthy until 
 
 A single `validateHealths` entry supports only one evaluation path. To combine Kubernetes resource state with a metric check, add two entries under `validateHealths`: one using `script` or `evaluateCEL` against resource state, and one using `metricSource` + `metricQueries`. Both must pass before the feature is considered healthy.
 
-## Job-Based Health Validation
+## Job-Based Health Validation :material-crown:{ title="Enterprise" }
 
 *Part of the Enterprise offering — requires a valid Enterprise or Enterprise Plus license.*
 
